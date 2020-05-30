@@ -19,128 +19,128 @@ def sendToArduino(command):
 
 # functions to interface with arduino
 def button1():
-    print("Button 1 command [E_STOP] recieved")
+    print("Button 1 command [E_STOP] received")
     x = "\xB1"
     sendToArduino(x)
 
 
 def button2():
-    print("Button 2 [AUTO_MINE] command recieved")
+    print("Button 2 [AUTO_MINE] command received")
     x = "\xB2"
     sendToArduino(x)
 
 
 def button3():
-    print("Button 3 [AUG_ON] command recieved")
+    print("Button 3 [AUG_ON] command received")
     x = "\xB3"
     sendToArduino(x)
 
 
 def button4():
-    print("Button 4 [AUG_REV] command recieved")
+    print("Button 4 [AUG_REV] command received")
     x = "\xB4"
     sendToArduino(x)
 
 
 def button5():
-    print("Button 5 [AUG_DOWN] command recieved")
+    print("Button 5 [AUG_DOWN] command received")
     x = "\xB5"
     sendToArduino(x)
 
 
 def button6():
-    print("Button 6 [FRAME_DOWN] command recieved")
+    print("Button 6 [FRAME_DOWN] command received")
     x = "\xB6"
     sendToArduino(x)
 
 
 def button7():
-    print("Button 7 [AUG_UP] command recieved")
+    print("Button 7 [AUG_UP] command received")
     x = "\xB7"
     sendToArduino(x)
 
 
 def button8():
-    print("Button 8 [FRAME_UP] command recieved")
+    print("Button 8 [FRAME_UP] command received")
     x = "\xB8"
     sendToArduino(x)
 
 
 def button9():
-    print("Button 9 command recieved")
+    print("Button 9 command received")
     x = "\xB9"
     sendToArduino(x)
 
 
 def button10():
-    print("Button 10 command recieved")
+    print("Button 10 command received")
     x = "\xB0"
     sendToArduino(x)
 
 
 def button11():
-    print("Button 11 command recieved")
+    print("Button 11 command received")
     x = "\xBA"
     sendToArduino(x)
 
 
 def button12():
-    print("Button 12 command recieved")
+    print("Button 12 command received")
     x = "\xBB"
     sendToArduino(x)
 
 
 def dpadup():
-    print("dpad up command recieved")
+    print("dpad up command received")
     x = "\xD1"
     sendToArduino(x)
 
 
 def dpadright():
-    print("dpad right command recieved")
+    print("dpad right command received")
     x = "\xD2"
     sendToArduino(x)
 
 
 def dpaddown():
-    print("dpad down command recieved")
+    print("dpad down command received")
     x = "\xD3"
     sendToArduino(x)
 
 
 def dpadleft():
-    print("dpad left command recieved")
+    print("dpad left command received")
     x = "\xD4"
     sendToArduino(x)
 
 
 def lstickup():
-    print("left stick up command recieved")
+    print("left stick up command received")
     x = "\xD6"
     sendToArduino(x)
 
 def lstickdown():
-    print("left stick down command recieved")
+    print("left stick down command received")
     x = "\xD8"
     sendToArduino(x)
 
 def lstickneutral():
-    print("left stick neutral command recieved")
+    print("left stick neutral command received")
     x = "\xD0"
     sendToArduino(x)
 
 def rstickup():
-    print("right stick up command recieved")
+    print("right stick up command received")
     x = "\xDB"
     sendToArduino(x)
 
 def rstickdown():
-    print("right stick down command recieved")
+    print("right stick down command received")
     x = "\xDD"
     sendToArduino(x)
 
 def rstickneutral():
-    print("right stick neutral command recieved")
+    print("right stick neutral command received")
     x = "\xD5"
     sendToArduino(x)
 
